@@ -18,16 +18,16 @@ namespace MyNamespace{
                     switch (operation)
                     {
                         case "*":
-                            Console.WriteLine($"Hey, your answer is {Convert.ToDouble(num1) * num2}");
+                            Console.WriteLine($"Your answer is {Convert.ToDouble(num1) * num2}");
                             break;
                         case "/":
-                            Console.WriteLine($"Hey, your answer is {Convert.ToDouble(num1) / num2}");
+                            Console.WriteLine($"Your answer is {Convert.ToDouble(num1) / num2}");
                             break;
                         case "+":
-                            Console.WriteLine($"Hey, your answer is {Convert.ToDouble(num1) * num2}");
+                            Console.WriteLine($"Your answer is {Convert.ToDouble(num1) + num2}");
                             break;
                         case "-":
-                            Console.WriteLine($"Hey, your answer is {Convert.ToDouble(num1) * num2}");
+                            Console.WriteLine($"Your answer is {Convert.ToDouble(num1) - num2}");
                             break;
                         default:
                         Console.WriteLine("No operation recieved");
